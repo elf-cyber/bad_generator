@@ -118,7 +118,7 @@ for i in range(1000):
             g = open("look_at_me.txt","w+")
             for i in range(1):
                 g.write("[-]YOU ARE BITCH")
-        if c = '999':
+        if c == '999':
             break
 
 '''
