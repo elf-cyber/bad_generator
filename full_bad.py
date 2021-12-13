@@ -8,7 +8,10 @@ from rat_android import *
 from baj_windows import *
 from virus_txt_windows import *
 from virus_txt_android import *
-os.mkdir('output') 
+try: 
+    os.mkdir('output') 
+except: 
+     pass
 if os.name == 'nt':
     
     os.system('cls')
