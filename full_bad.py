@@ -42,7 +42,7 @@ def banner():
 {c.RED}|
 {c.RED}|------------{c.YELLOW}>{c.LIGHTCYAN_EX}[6]{c.GREEN} Creat Virus txt Android..!
 {c.RED}|
-{c.RED}|--------------{c.YELLOW}>{c.LIGHTCYAN_EX}[6]{c.GREEN} Exit..!
+{c.RED}|--------------{c.YELLOW}>{c.LIGHTCYAN_EX}[7]{c.GREEN} Exit..!
 {c.RED}|
 {c.RED}|--------------------------------------------------+
 
