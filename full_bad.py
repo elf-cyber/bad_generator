@@ -16,7 +16,7 @@ else:
 def pr(txt):
     for x in txt:
         print(x, end='', flush=True)  
-        time.sleep(0.001)   
+        time.sleep(0.01)   
 def banner():
     pr(c.GREEN+'''
    
