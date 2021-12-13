@@ -12,7 +12,7 @@
           
           $cd bad_generator
           
-          $python full_bad.py\
+          $python full_bad.py
           
 # Windows..!
    
