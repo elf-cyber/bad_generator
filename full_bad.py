@@ -63,7 +63,7 @@ while True:
         shell()
         
     if result == '2':
-        rat_1()
+        rat1()
         panel_1()
         
     if result == '3':
